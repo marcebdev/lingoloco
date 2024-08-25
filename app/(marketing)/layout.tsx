@@ -1,3 +1,4 @@
+import { Footer } from './footer';
 import { Header } from './header';
 
 export type LayoutProps = {
@@ -8,7 +9,7 @@ export default function MarketingLayout({ children }: LayoutProps) {
     <div className="min-h-screen flex flex-col">
       <Header />
       <div className="flex items-center flex-1">{children}</div>
-      <footer>klkl</footer>
+      <Footer />
     </div>
   );
 }
